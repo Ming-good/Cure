@@ -1,0 +1,89 @@
+@media screen and (max-width: 2000px)
+{
+    .contain {
+        width: 1430px;
+    }
+}
+@media screen and (max-width: 992px)
+{
+    .contain {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .contain {
+        width: 1200px;
+    }
+    .button4 {
+	width:300px;
+    }
+}
+.contain {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.btn2{  <!-- 모든 버튼에대한 css설정 -->
+      text-decoration: none;
+      font-size:2rem;
+      color:white;
+      padding:10px 20px 10px 20px;
+      margin:20px;
+      display:inline-block;
+      border-radius: 10px;
+      transition:all 0.1s;
+}
+
+.btn2:active{
+      transform: translateY(3px);
+      color:black;
+}
+.btn2.green{
+background-color:#5cb85c;
+}
+
+.button4{
+  background:#1AAB8A;
+  color:#fff;
+  border:none;
+  position:relative;
+  font-size:1.6em;
+  padding:0 1em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  width:250px;
+  height:60px;
+}
+.button4:hover{
+  background:#fff;
+  color:#1AAB8A;
+}
+.button4:before,.button4:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:400ms ease all;
+}
+.button4:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.button4:hover:before,.button4:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+
