@@ -48,6 +48,7 @@
           <a class="ri button1" href="/Cure/public/festival" >Event 검색</a>
         </li>
 	 @if(session() -> has('id'))
+	
         <li style="padding-top:10px;padding-bottom:10px;border-top:2px solid #fff;">
             <a class="ri button1" href="/Cure/public/member/logout">Logout</a>
         </li>
