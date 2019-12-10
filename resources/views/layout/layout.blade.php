@@ -73,9 +73,9 @@
             <h1 class="title">Log in</h1>
             <form class="modal_login" id='log'>
               <label class="modal_label" for="id">ID</label>
-              <input class="modal_input" type="text" name="id" placeholder="Your ID" >
+              <input class="modal_input" type="text" name="id" placeholder="Your ID" value="test" >
               <label class="modal_label" for="password">Password</label>
-              <input class="modal_input" type="password" name="password" placeholder="Your Password" >
+              <input class="modal_input" type="password" name="password" placeholder="Your Password" value="!2zxcasd" >
               <div style='color:red;' id='warning'></div>
               <input type="submit" id='submit' class="sign_submit" value="Login">
               <input type="button" class="sign_submit"value="Sign Up" onClick="location.href='membership.html'">
