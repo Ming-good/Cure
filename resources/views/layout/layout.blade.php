@@ -2,6 +2,8 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <script src="/Cure/public/assets/js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="/Cure/public/assets/js/sign.js"></script>
+        <script type="text/javascript" src="/Cure/public/assets/js/toggle.js"></script>
         <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0"/>
         <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -73,9 +75,9 @@
             <h1 class="title">Log in</h1>
             <form class="modal_login" id='log'>
               <label class="modal_label" for="id">ID</label>
-              <input class="modal_input" type="text" name="id" placeholder="Your ID" value="test" >
+              <input class="modal_input" type="text" name="id" placeholder="Your ID" value="testID" >
               <label class="modal_label" for="password">Password</label>
-              <input class="modal_input" type="password" name="password" placeholder="Your Password" value="!2zxcasd" >
+              <input class="modal_input" type="password" name="password" placeholder="Your Password" value="!1a2s3d4f" >
               <div style='color:red;' id='warning'></div>
               <input type="submit" id='submit' class="sign_submit" value="Login">
               <input type="button" class="sign_submit"value="Sign Up" onClick="location.href='membership.html'">
@@ -83,8 +85,6 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="/Cure/public/assets/js/sign.js"></script>
-    <script type="text/javascript" src="/Cure/public/assets/js/toggle.js"></script>
 @yield('content')
 
 
